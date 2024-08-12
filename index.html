@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CleverSoft</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximun-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="header" id="topheader">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container p-2">
+                <a class="navbar-brand" href="index.html">Clever<span class="nav-soft">Soft</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <!-- <li class="nav-item active">
+                            <a class="nav-link hover1" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li> -->
+                        <li class="nav-item  dropdown">
+                            <a class="nav-link hover1" href="#" role="button" data-toggle="dropdown"
+                                aria-expanded="false">
+                                Home <span class="sr-only">(current)</span><i class="fa-solid fa-angle-down"
+                                    style="color: #f7f9fd;"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                <a href="index.html" class="dropdown-item"></i> Main Home</a></a>
+
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Pages <i class="fa-solid fa-angle-down" style="color: #f7f9fd;"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    <a href="useful.html" class="dropdown-item"></i> About us</a></a>
+
+                                <a class="dropdown-item" href="#">
+                                    </i> Careers</a>
+
+
+                                <a class="dropdown-item" href="#">
+                                    <a href="contact.html" class="dropdown-item"></i> Contact Us</a></a>
+
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Services <i class="fa-solid fa-angle-down" style="color: #f7f9fd;"></i>
+                            </a>
+                            <div class="dropdown-menu">
+
+                                <a class="dropdown-item" href="#">
+                                    <a href="services_page.html" class="dropdown-item"></i> Services Page</a></a>
+                                <a class="dropdown-item" href="#">
+                                    <a href="whatwedo.html" class="dropdown-item"></i>  What We Do</a></a>
+
+                            </div>
+                        </li>
+
+
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Shop <i class="fa-solid fa-angle-down" style="color: #f7f9fd;"></i>
+                            </a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/landing.html">Landing</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
+              data-mdb-toggle="dropdown" aria-expanded="false">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Another action</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  Submenu &raquo;
+                </a>
+                <ul class="dropdown-menu dropdown-submenu">
+                  <li>
+                    <a class="dropdown-item" href="#">Submenu item 1</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Submenu item 2</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
+                    <ul class="dropdown-menu dropdown-submenu">
+                      <li>
+                        <a class="dropdown-item" href="#">Multi level 1</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Multi level 2</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Submenu item 4</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Submenu item 5</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div> -->
+        <!-- <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid  text-center p-8 text-white">
+                <a class="navbar-brand logo" href="#">Dance 'til Dawn</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto center-div text-uppercase">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Classes <i class="fa-solid fa-angle-down" style="color: #f7f9fd;"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#"><i class="fa-solid fa-square fa-2xs"
+                                        style="color: #6b2ae6;"></i> Dance Classes</a>
+                                <a class="dropdown-item" href="#"><i class="fa-solid fa-square fa-2xs"
+                                        style="color: #6b2ae6;"></i> Class Schedule</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Pages <i class="fa-solid fa-angle-down" style="color: #f7f9fd;"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#merchandise-id"><i class="fa-solid fa-square fa-2xs"
+                                        style="color: #6b2ae6;"></i> Gallery</a>
+                                <a class="dropdown-item" href="#news-and-update-id"><i class="fa-solid fa-square fa-2xs"
+                                        style="color: #6b2ae6;"></i> Instructor</a>
+                                <a class="dropdown-item" href="#comics-and-books-id"><i
+                                        class="fa-solid fa-square fa-2xs" style="color: #6b2ae6;"></i> Pricing</a>
+                                <a class="dropdown-item" href="#testimonial-id"><i class="fa-solid fa-square fa-2xs"
+                                        style="color: #6b2ae6;"></i> Service</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="header-button ml-auto">
+                        <button type="submit" class="search-btn"><i class="fa-solid fa-magnifying-glass"
+                                style="color: #f7f9fc;"></i></button>
+                        <button type="submit" class="launcher-btn"><i class="fa-solid fa-table-cells"
+                                style="color: #f0f0f0;"></i></button>
+                        <button type="submit" class="section-btn">REGISTER NOW</button>
+                    </div>
+                </div>
+            </div>
+        </nav> -->
+
+        <section class="header-section">
+            <div class="center-div col-sm-12 col-xs-12 col-md-12">
+                <h4>We are CleverSoft</h4>
+                <span>
+                    <h1 id="element"></h1>
+                </span>
+
+                <h1 class="center-h1"> YOUR IT OUTSOURCING PALS!</h1>
+                <div class="header-buttons">
+                    <a href="#" class="button1">View More</a>
+                    <a href="#" class="button2">Buy Theme</a>
+                </div>
+            </div>
+        </section>
+        <div class="over">
+            <p><img src="./Images/h1-rev-img-1-1.png" class="over" alt="img112" style="width: 100%; height: 60%;"></p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: [" We'll Code. You'll Relax."],
+            typeSpeed: 50,
+        });
+    </script>
+
+    <!--*****************section2 start*******************-->
+    <section class="section2" id="section2">
+        <div class="container">
+            <div class="row up">
+                <div class="col-lg-6 col-sm-12 col-xs-12 col-md-12 col-12">
+                    <h6>We Are CleverSoft</h6>
+                    <h3>Managed IT Services<br>
+                        Customized by Industries</h3>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-xs-12 col-md-12 col-12 sec-p">
+                    <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+                        enim. Donec pede justo, fringilla vel, aliquet nec, eget, arcu. In enim justo, rhoncus ut imper.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row img-1">
+                <div class="col-lg-4 col-md-12 col-12 img1">
+                    <img src="Images/download (1).jpeg">
+                    <div class="box text-center">
+                        <div class="box-head">
+                            <h5>Can we help?</h5>
+                        </div>
+                        <div class="box-body ">
+                            <h6 style="margin-right: -290px;">Our Services</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 img1">
+                    <img src="Images/images (1).jpeg">
+                    <div class="box text-center">
+                        <div class="box-head">
+                            <h5>Partner With Us!</h5>
+                        </div>
+                        <div class="box-body ">
+                            <h6 style="margin-right: -290px;">Our Expertise</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-12 img1">
+                    <img src="Images/images.jpeg">
+                    <div class="box text-center">
+                        <div class="box-head">
+                            <h5>Success Stories</h5>
+                        </div>
+                        <div class="box-body ">
+                            <h6 style="margin-left: -40px;">Our Clients</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="label">
+                <p class="label-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. aenean commodo ligula
+                    Aenean massa eget.</p>
+                <a href="#" class="btn-label">View Industries</a>
+            </div>
+        </div>
+    </section>
+
+    <!--*****************section2 end*******************-->
+
+
+    <!--*****************section3 start*******************-->
+    <section class="section3" id="section3-div">
+        <div class="container-fluid images">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <img src="Images/image1.jpg" class="sec-img1" style="border-radius: 10px;">
+                </div>
+                <div class="col-lg-3 col-md-12 col-12">
+                    <img src="Images/h1-port-single-img-2-650x650.jpg" class="sec-img1" style="border-radius: 10px;">
+                </div>
+                <div class="col-lg-3 col-md-12 col-12">
+                    <img src="Images/port-custom-img-1.jpg" class="sec-img1" style="border-radius: 10px;">
+                </div>
+            </div>
+            <div class="row" id="row1">
+                <div class="col-lg-3 col-md-12 col-12">
+                    <img src="Images/h1-port-single-img-3-650x650.jpg" class="sec-img2" style="border-radius: 10px;">
+                </div>
+                <div class="col-lg-3 col-md-12 col-12">
+                    <img src="Images/port-single-img-7.jpg" class="sec-img2" style="border-radius: 10px;">
+                </div>
+                <div class="col-lg-3 col-md-12 col-12">
+                    <img src="Images/img1.jpg" class="sec-img2" style="border-radius: 10px;">
+                </div>
+                <div class="col-lg-3 col-md-12 col-12">
+                    <img src="Images/img2.jpg" class="sec-img2" style="border-radius: 10px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--*****************section3 end*******************-->
+
+
+    <!--*****************section4 start*******************-->
+    <section class="section4" id="section4-div">
+        <div class="container">
+            <div class="row up1">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <h6>What We Offer</h6>
+                    <h3>Business Strategies &<br>
+                        Resource Development</h3>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12 sec-p">
+                    <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+
+                    </p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-12 carder">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="Images/h1-img-4.jpg">
+                                <h2>Skilled Workforce</h2>
+                                <p>Maecenas nec odio et ante tempus.<br> Donec vitae sapien</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#">What Kind of Account?</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="Images/h1-img-5.jpg">
+                                <h2>New Processes</h2>
+                                <p>Maecenas nec odio et ante tempus.<br> Donec vitae sapien</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#">Our Awesome Card?</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="Images/h1-img-6.jpg">
+                                <h2>Dedicated Support</h2>
+                                <p>Maecenas nec odio et ante tempus.<br> Donec vitae sapien</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#">Why Use the App?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--*****************section4 end*******************-->
+    <section>
+        <div class="label2">
+            <h4 class="label-p2">Need Help With Your IT Endeavors? Contact Us to Get a Pro Service!</h4>
+            <a href="#" class="btn-label2">Buy Theme</a>
+        </div>
+
+        <div class="map">
+            <p><img src="./Images/h1-rev2-map-img.png" alt="img112"></p>
+        </div>
+        <div class="boy">
+            <p><img src="./Images/h1-rev-2-boy-img.png" alt="img112"></p>
+        </div>
+        <div class="girl">
+            <p><img src="./Images/h1-rev-2-girl-img.png" alt="img112"></p>
+        </div>
+
+    </section>
+    <section class="section4" id="section4-div">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12 company">
+                    <h6>Company News</h6>
+                    <h3>Read up on the Latest <br>
+                        in Software Management</h3>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12 sec-p">
+                    <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+                        enim.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--*****************section6 start*******************-->
+    <section class="section6">
+        <!-- <div class="photo">
+            <div class="pg1" ></div>
+            <div class="pg2" ><h4 style="position: relative; top: 30px;">"Lorem ipsum dolor sit amet, consectet... </h4><br> <span class="outline"> 31 aug 2020 | By Amos Mack</span></div>
+            <div class="pg3" ></div>
+        </div>
+        <div class="photo2">
+            <div class="pg4" ><h4 style="position: relative; top: 30px;">"Lorem ipsum dolor sit amet, consectet... </h4><br> <span class="outline"> 31 aug 2020 | By Source</span></div>
+            <div class="pg5" ></div>
+            <div class="pg6" ><h4 style="position: relative; top: 30px;">"Lorem ipsum dolor sit amet, consectet... </h4><br> <span class="outline"> 31 aug 2020 | By Source</span></div>
+            
+        </div> -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 mb-4 mb-lg-0">
+                    <img src="Images/pinterest-post-3-list-img.jpg" class="w-100 shadow-1-strong rounded mb-4 pg1" />
+                    <div class="w-100 shadow-1-strong rounded mb-4 pg4">
+                        <h4 style="position: relative; top: 30px;">"Lorem ipsum dolor sit amet, consectet... </h4><br>
+                        <span class="outline"> 31 aug 2020 | By Source</span>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 mb-4 mb-lg-0">
+                    <div class="w-100 shadow-1-strong rounded mb-4 pg2">
+                        <h4 style="position: relative; top: 30px;">"Lorem ipsum dolor sit amet, consectet... </h4><br>
+                        <span class="outline"> 31 aug 2020 | By Amos Mack</span>
+                    </div>
+                    <img src="Images/h4-img-7-1024x718.jpg" class="w-100 shadow-1-strong rounded mb-4 pg1" />
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 mb-4 mb-lg-0">
+                    <img src="Images/pinterest-post-1-featured-img.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4 pg1" />
+
+                    <div class="w-100 shadow-1-strong rounded mb-4 pg6">
+                        <h4 style="position: relative; top: 30px;">"Lorem ipsum dolor sit amet, consectet... </h4><br>
+                        <span class="outline"> 31 aug 2020 | By Source</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div><br><br><br><br><br><br><br></div>
+    <section class="section7">
+        <div class="para">
+            <p>Meet CleverSoft</p>
+            <h1>Take a Peek at Life in Our Office!
+            </h1><br>
+        </div>
+        <div class="container">
+            <video width="100%" height="440" controls>
+                <source src="Videos/video (2160p).mp4" type="video/mp4">
+
+            </video>
+        </div>
+        <div class="para2">
+            <p>Meet CleverSoft</p>
+            <h1>Create a Sublime Website <br>For Your IT Business.
+            </h1><br>
+
+        </div>
+
+        <a href="#" class="button">Get Theme</a>
+    </section>
+
+
+    <!--*****************section6 end*******************-->
+
+
+    <!--*****************section-last start*******************-->
+    <section class="section-last" id="section-last-div">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-12" style="margin-top: -5px;">
+                    <a class="navbar-brand1" href="#">Clever<span class="nav-soft">Soft</span></a>
+                    <p>A smart and professional solution<br>
+                        for all SaaS, software and tech<br>
+                        companies & digital agencies.</p>
+                    <i class="new fa-brands fa-facebook"></i>
+                    <i class="new fa-brands fa-twitter"></i>
+                    <i class="new fa-brands fa-linkedin"></i>
+                </div>
+                <div class="col-lg-3 col-md-12 col-12 contact-i" style="margin-top: -5px;">
+                    <h4 class="Contact">Contact info</h4>
+                    <li><i class="ful fa-solid fa-location-dot"></i><span class="fulton">113 Fulton Street, Suite
+                            721</span></li>
+                    <li><i class="fa-solid fa-won-sign"></i>New York,NY 10010</li>
+                    <li><i class="fa-regular fa-envelope"></i>csoft@qodeinteractive.com</li>
+                    <li><i class="fa-solid fa-phone"></i>+88(0)101 0000 000</li>
+                </div>
+                <div class="col-lg-3 col-md-12 col-12">
+                </div>
+                <div class="col-lg-3 col-md-12 col-12 contact-i">
+                    <h4>Useful links</h4>
+                    <li><a href="useful.html">About us</a></li>
+                    <li><a href="services_page.html">Service</a></li>
+                    <li><a href="#">Career Page</a></li>
+                    <li><a href="#">Our Location</a></li>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--*****************section-last end*******************-->
+
+    <!--*****************   footer start   *******************-->
+    <footer class="footer-section" id="footer-section-div">
+        <div class="container-fluid">
+            <p><a href="#">Qode Interactive</a>2020.All Copyrights Reserved.</p>
+        </div>
+        <div class="scrolltop float-right">
+            <i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn"></i>
+        </div>
+    </footer>
+
+    <!--*****************footer end*******************-->
+
+    <script>
+        myButton = document.getElementById("myBtn")
+
+        window.onscroll = function () {
+            scrollFunction();
+        }
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                myButton.style.display = "block";
+            } else {
+                myButton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0; //for safari
+            document.documentElement.scrollTop = 0; // for chrome,firefox,IE or Opera
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
