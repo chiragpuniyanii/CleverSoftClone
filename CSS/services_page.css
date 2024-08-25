@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.navbar-brand{
+    font-size: 2rem !important;
+    font-weight: bold;
+    color: rgb(1, 1, 59);
+}
+
+.nav-soft{
+    color: #ff6600;;
+}
+
+.navbar-nav li a{
+    color: black !important;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0 15px !important;
+}
+
+.navbar-nav li a:hover{
+    color: orangered !important;
+
+}
+
+.navbar-nav li .hover1{
+    color: orangered !important;
+ 
+}
+
+/* ------------------section1 start--------------------------- */
+
+.back{
+    margin: 30px;
+    height: 35rem !important;
+    width: auto;
+    background-color: rgb(37, 135, 180);
+    /* background-image: url("../Images/back.jpg"); */
+}
+
+.back  h1{
+    position: relative;
+    top: 12rem;
+}
+
+
+.back h1{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+}
+
+/* .section4{
+    width: 100%;
+    height: 100vh;
+    padding: 70px;
+    position: relative;
+    top: 3rem;
+} */
+
+.sec h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #020741;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.sec p{
+    color: #787890;
+    text-align: center;
+}
+.sec-p{
+    margin-top: 80px;
+}
+
+.sec button{
+    border: none;
+    color: #020741;
+}
+
+.card{
+    text-align: center;
+    border: none;
+    border-radius: 20px !important;
+    position: absolute;
+    top: 320px;
+}
+
+.card-footer a{
+    font-size: 0.9rem;
+    font-weight: bold;
+    /* color: #020741; */
+}
+
+.card-footer:hover{
+    background-color: #020741;
+    color: #fff !important;
+    border-radius: 10px!important;
+}
+
+.card-footer a:hover{
+    color: #fff !important;
+}
+
+
+.car:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+}
+
+/* ------------------section1 End--------------------------- */
+
+
+/* ------------------section2 start--------------------------- */
+
+
+
+.section2{
+    width: 100%;
+    height: 100vh;
+    padding: 70px;
+    position: relative;
+    top: 20rem;
+}
+
+.section2 h1{
+    font-weight: bold;
+    color: #020741;
+    
+}
+
+.section2 p{
+    color: #787890;
+    font-size: large;
+    margin-top: -60px;
+}
+.section2 h6{
+    color: #ff6600;
+}
+
+/* ------------------section2 End--------------------------- */
+
+/*/////////////////// media query css for mobile start ////////////////*/
+
+@media (min-width:300px) and (max-width:700px){
+    .section2{
+        margin-top: 900px;
+    }
+
+    
+    .img1,.img2,.img3{
+        position: absolute;
+        left: -30px;
+        top: 330px;
+    }
+    
+    .m{
+        width: 300px!important;
+    }
+   
+    .section4{
+        margin-top: 1250px;
+    }
+    .d{
+        width: 300px!important;
+    }
+    .dev{
+        margin-top: 50px!important;
+    }
+    .con{
+        position: absolute;
+        top: 350px!important;
+        /* margin-top: 350px!important; */
+    }
+    .im{
+       
+        margin-top: 300px;
+    }
+    .header-section{
+        position: relative;
+        top: 300px;
+    }
+    
+    
+    
+}
+
+/*/////////////////// media query css for mobile end ////////////////*/
+
+/*/////////////////// media query css for tab start ////////////////*/
+
+@media (max-width: 767px) {
+    .im img {
+        width: 100%;
+    }
+
+    
+
+    
+
+}
+
+
+
+
+@media (min-width:700px) and (max-width:1024px){
+    .section2{
+        margin-top: 800px;
+    }
+    
+}
+@media (min-width:1023px) and (max-width:1024px) {
+    .img1,.img2,.img3{
+        position: absolute;
+        left: -30px;
+        top: 300px;
+    }
+}
+
+
+@media (min-width:400px) and (max-width:1000px) {
+    .img1,.img2,.img3{
+        position: absolute;
+        left: -30px;
+        top: 150px;
+    }
+    
+
+}
+
+@media (min-width:700px) and (max-width:1024px){
+    .img1,.img2,.img3{
+        position: absolute;
+        left: 150px;
+        top: -150px;
+        
+    }
+    .box{
+        width: 500rem;
+    }
+    
+}
+
+@media (min-width:1024px) and (max-width:1400px){
+    .section2{
+        margin-top: -100px;
+    }
+    .section2 p{
+        margin-top: -50px;
+    }
+    
+    
+}
+
+/* ------------------section3 start--------------------------- */
+.box{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 250px;
+    background-color: white;
+    position: absolute;
+    bottom: 1px;
+    left: 40px;
+    box-shadow: 0 0 20px 0 rgba(245, 243, 243, 0.3);
+    /* margin-right: -50px; */
+}
+.box:hover{
+    transform: translateY(10px);
+    transition: all 0.3s ease-in-out;
+}
+.img1:hover{
+
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transition: all 0.3s ease-in-out;
+}
+.img2:hover{
+
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transition: all 0.3s ease-in-out;
+}
+.img3:hover{
+
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.img-1{
+    margin-top: 100px;
+}
+.back1{
+    margin: 30px;
+    height: 60rem !important;
+    width: auto;
+    /* background-color: rgb(217, 198, 197); */
+    position: relative;
+    top: -150px;
+}
+.con{
+    position: relative;
+    top: 150px;
+}
+
+.up1 h6{
+    color: #ff6600;
+}
+.up1 h2{
+    font-weight: bold
+}
+
+.post{
+    position: absolute;
+    top: -120px;
+    left: 250px;
+}
+.next{
+    margin-top: 10px!important;
+}
+
+.contain{
+    margin-top: 80px;
+}
+
+
+/* ------------------section3 End--------------------------- */
+
+/* ------------------section4 start--------------------------- */
+
+
+.header-section h4{
+    text-align: center;
+    font-size: 1.1rem;
+    color: orangered;
+    font-weight: bold;
+}
+
+.header-section h1{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(1, 6, 55);
+    font-size: 3rem;
+}
+
+
+/* .img{
+    width: 300px!important;
+    height: auto;
+} */
+
+/* ------------------section4 End--------------------------- */
+
+
+/* ------------------sectionlast start--------------------------- */
+
+.section-last{
+    width: 100%;
+    height: auto;
+    padding: 70px;
+    position: relative;
+    background-color: #1A2942;
+    color: #fff;
+    margin-top: 150px;
+}
+
+.navbar-brand1{
+    color: #fff;
+    font-size: 2rem !important;
+    font-weight: bold;
+}
+
+.section-last p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-last i{
+    margin-left: 15px;
+}
+
+.section-last i:hover{
+    background-color: orangered;
+    width: 5%;
+}
+
+.section-last h3{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section-last li{
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.section-last li:hover{
+    color: #787890;
+}
+
+.contact-i li i{
+    padding: 0 10px;
+    margin-left: -10px;
+
+}
+
+
+
+.section-last li a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #020741;
+    color: #787890;
+    padding: 70px 0 0 0;
+}
+
+
+
+#myBtn{
+    color: #fff;
+    background: #1A2942;
+    bottom: 20px;
+    right: 40px;
+    position: fixed;
+    z-index: 99;
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+}
+
+#myBtn:hover{
+    background: orangered;
+}
+.chi{
+    margin: 10px;
+   
+}
+/* ------------------sectionlast End--------------------------- */
+
+.dropdown-item{
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.dropdown-item a:hover{
+  color: #ff6600;
+}
+
+.navbar-nav li .dropdown-menu .dropdown-item {
+    display: block;
+    color: #000 !important;
+}
+
+.navbar-nav li .dropdown-menu {
+    display: none;
+    transition: 0.25s ease-in-out !important;
+}
+
+.navbar-nav li:hover .dropdown-menu {
+    display: block;
+    width: 200px;
+
+    border-radius:10px;
+}
+
+
+
+
+.dropdown-menu li {
+position: relative;
+}
+.dropdown-submenu {
+/* display: none; */
+position: absolute;
+left: 100%;
+top: -7px;
+}
+
+.dropdown-submenu-left {
+right: 100%;
+left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+display: block;
+}
+
+/* .dropdown-hover:hover>.dropdown-menu {
+display: inline-block;
+}
+
+.dropdown-hover>.dropdown-toggle:active {
+pointer-events: none;
+} */
+
+.dropdown-menu li ul{
+    display: none;
+}
+
+.dropdown-menu ul li:hover>ul{
+    display: block;
+    position: absolute;
+    width: 100%;
+}
